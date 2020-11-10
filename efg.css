@@ -1,0 +1,185 @@
+body {
+	/*font-size: 16px;*/
+	background-color: #664400;
+	/*font-family:'Oxygen', sans-serif;*/
+}
+
+/**header**/
+#header-nav {
+	background-color: lightgrey;
+	border-radius:0;
+	border:0;
+}
+
+#logo-img {
+	background: url(https://www.logodesign.net/logo-new/line-art-shopping-trolley-for-supermarket-7524ld.png) no-repeat;
+	width: 850px;
+    height: 300px;
+    padding-top: 300px
+    margin: 0px;
+    align-items: center;
+}
+
+#header-nav h1{/* name of the store*/
+	font-family: 'Lora', serif;
+	color: #660000;
+	font-size: 3.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow:1px 1px 1px #222;
+	margin-top: 0;
+	line-height: .75;
+}
+#header-nav a:hover, #header-nav a:focus {
+	text-decoration: none;
+}
+#header-nav h3{
+	colour: #ffffff;
+	text-transform: uppercase;
+	font-size:1.5em;
+	margin-top: 15px;
+}
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list a {
+	color: #951C49;
+	text-align: center;
+}
+#nav-list a:hover {
+	background: #E7E7E7;
+}
+#nav-list a span {
+	font-size : 1.8em;
+}
+
+#phone {
+	margin-top: 5px;
+}
+#phone a { /* Phone number */
+ text-align: right;
+ padding-bottom: 0;
+}
+#phone div { /* We Deliver */
+	color: #ffffff;
+	text-align: right;
+	padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px
+}
+/* END HEADER*/
+
+/***HOME PAGE***/
+
+#home-tile, #About-tile, #map-tile{
+	height: 250px;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	position:relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+}
+
+
+
+#home-tile, #About-tile, #map-tile{
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#home-tile {
+	background: url('http://www.simpleimageresizer.com/_uploads/photos/be96ea02/cart_360x260.jpg') no-repeat;
+    background-position: center;
+
+}
+
+#About-tile {
+	background: url(http://www.simpleimageresizer.com/_uploads/photos/be96ea02/retailinia_360x260.png) no-repeat;
+    background-position: center;
+
+}
+
+#home-tile span, #About-tile span, #map-tile span{
+	position: absolute;
+	bottom: : 0;
+	right: 0;
+	width: 100px;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8; 
+}
+
+
+
+
+
+/******* Large devices only*****/
+/****@media	(min-width: 170px) {
+	.delivery-boy {
+		background: url('https://www.nicepng.com/png/detail/114-1145508_free-home-delivery-png-graphic-free-delivery-boy.png') no-repeat;
+    	height: 368px;
+    	box-shadow: 0 0 50px #3F0C1F;
+        border: 2px solid #3F0C1F;***/
+    .center {
+    	display: block;
+    	margin left: auto;
+    	margin-right: auto;
+    	width: 100%;
+    	height: 90%;
+    	border: 8px solid #3F0C1F;
+    	box-shadow: 0 0 50px #ffb3b3;
+    }
+
+
+
+}
+
+/*Footer*/
+#footer{
+	background: #e0e0e0;
+	padding: 20px 0;
+}
+#footer ul{
+	padding-left: 0;
+	list-style: none;
+}
+#footer ul a{
+	color: #fff;
+	padding: 20px 0;
+}
+#footer .social a{
+	margin: 0 10px 0 0;
+	color: #fff;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	line-height: 30px;
+	font-size: 15px;
+	text-align: center;
+	transform: all 0.2s ease-out;
+	vertical-align: bottom;
+	background-color: #555555;
+}
+
+/*Copyright*/
+#copyright{
+	background: #333;
+	color: #ccc;
+	padding: 20px;
+	font-size: 12px;
+}
+
+#copyright p{
+	margin: 0;
+}
